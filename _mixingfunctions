@@ -1,0 +1,9 @@
+@ mixin margin-left($margin-left){
+	margin-left: $margin-left;
+}
+@ mixin width($width){
+	width:$width;
+}
+@ mixin border-bottom($border-bottom){
+	border-bottom:$border-bottom;
+}

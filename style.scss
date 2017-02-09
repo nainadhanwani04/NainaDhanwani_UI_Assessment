@@ -1,0 +1,134 @@
+@import "var";
+@import "mixingfunctions";
+
+body{
+
+	@include margin(0 0 0 70px);
+	@include width(89%);
+}
+.logo-holder{
+	margin-top:$margin-top;
+}
+.logo{
+	background:$background;
+	@include width(113px);
+	@include height(141px);
+	background-size:$background-size;
+}
+.title{
+    @include font($font-family,$color,20px);
+    @include padding(75px 0 0 110px);
+}
+.header-links{
+    list-style:$list-style;
+    font-weight:$font-weight;
+    display:$display;
+    @include margin(0 0 0 auto);
+    @include padding(0 0 0 0);
+    li{
+    @include margin(80px 0 0 0);
+    }
+    a{
+     text-decoration:$text-decoration;
+     text-align:$text-align;
+     @include font($font-family,$color,20px);
+     @include margin(0 0 0 37px);
+    }
+    a:hover{
+    text-decoration:$text-decoration;
+    $border-bottom: 2px solid blue;
+    border-bottom: $border-bottom;
+    $color: #3399FF;
+    color:$color;
+    }
+}
+.secondary-nav{
+  display:$display;
+  @include height(20px);
+  @include padding(0 0 4px 0); 
+  a{
+     text-decoration:$text-decoration;
+    @include font($font-family,$color,20px);
+     }
+     a:hover{
+    text-decoration:$text-decoration;
+    $border-bottom: 2px solid blue;
+    border-bottom: $border-bottom;
+    $color: #3399FF;
+    color:$color;
+    }
+}
+.featured-nav{
+  $font-weight:700;
+  font-weight:$font-weight;  
+  cursor:$cursor;
+  
+}
+.all-nav{
+ @include margin(0 0 0 10px);
+ }
+.search-input { 
+    $color: red;
+    color:$color;  
+    $text-align: right;
+    text-align:$text-align;
+    cursor:$cursor;
+    $display: block; 
+    display:$display;
+    letter-spacing: $letter-spacing;        
+    text-shadow: $text-shadow;       
+    word-spacing: $word-spacing;  
+    @include width(500px); 
+    @include margin(0 0 0 auto);
+    box-shadow: $box-shadow;
+    }
+    .search-button{
+    border: $border;
+    }
+.main-content{
+    @include margin(10px 0 0 0);
+    border-top:$border-top;
+    background-color:$background-color;
+    min-height: $minheight;
+}
+.footer,.footer-extension,.footer-extension-list{
+    display: $display;
+    justify-content: $justify-content;
+    @include margin(20px 0 0 0);
+}
+.footer-list,.footer-list1,.footer-extension a{
+    $color: #404d74;
+    color:$color; 
+    @include margin(0 20px 0 0);  
+    padding: $padding;
+    $font-weight: bolder;
+    font-weight:$font-weight;
+    list-style:$list-style;
+    font-family: $font-family;
+}
+.footer-list a,.extra-footer,.footer-extension-list a{
+    $font-weight: lighter;
+    font-weight:$font-weight;
+    $font-size: 12px;
+    font-size:$font-size;
+    $color: #323e4e;
+    color:$color;
+    text-decoration: $text-decoration;
+}
+.footer-list1,.footer-extension p{
+        @include padding(5px 0 0 0); 
+}
+.footer-list li,.extra-footer {
+    @include margin(5px 0 0 0);  
+}
+.footer-extension {
+$background-color:#323e4e;
+background-color:$background-color;
+}
+.footer-extension-list li{
+list-style:$list-style;}
+.footer-extension,.footer-extension-list a{
+$color:#fff;
+color:$color;
+font-family:$font-family;
+}

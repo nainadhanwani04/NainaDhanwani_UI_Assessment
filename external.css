@@ -1,0 +1,106 @@
+body{
+        width: 89%;
+        margin-left: 70px;
+        border-bottom: 2px solid #C0C0C0;
+
+}
+.logo-holder {
+	margin-top: 0 !important;
+}
+.logo {
+	background: url("https://atlanticbb.com/business/sites/all/themes/progressive/progressive_sub/logo.png") no-repeat;
+	height: 141px;
+	width: 113px;
+	background-size: 100%,100%;
+}
+.title{
+	font-family:"Open Sans", Arial; 
+	color:#404d74;
+	padding-top: 75px;
+	font-size: 20px;
+	padding-left: 110px;
+
+}
+.header-links{
+	list-style: none;
+	font-size: 16px;
+	font-weight: 500;
+        display: flex;
+        margin-left: auto;
+        padding-left: 0px;
+}
+
+.header-links li{
+        margin-top: 80px;
+}
+.header-links a{
+	text-decoration: none;
+	text-align: right;
+	font-family:"Open Sans", Arial; 
+	color:#404d74;
+	margin: 0 0 0 37px;
+}
+.header-links a:hover{
+	text-decoration: none;
+	border-bottom: 2px solid blue;
+	color: #3399FF;
+}
+.secondary-nav{
+	display: flex;
+	height: 20px;
+	font-family:"Open Sans", Arial;
+	justify-content: space-around;
+	padding-bottom: 4px;
+}
+.featured-nav{
+	font-weight: 700;
+	padding-right: 10px;
+        cursor: pointer;
+}
+.all-nav{
+	margin-left: 10px;
+}
+.search-input { 
+	color: red;  
+	text-align: right;
+	cursor: pointer;
+	display: block; 
+	letter-spacing: 4px;        
+	text-shadow: 0 0 2px black;       
+	word-spacing: 20px;  
+	width: 500px;   
+	margin-left: auto;
+	box-shadow: none;
+}
+.main-content{
+	background-color: #C0C0C0;
+	min-height: 500px;
+}
+.footer{
+	display: flex;
+    justify-content: space-between;
+	margin-top: 20px;
+
+}
+.footer-list,.footer-list1{
+	color: #404d74;
+	margin: 0 20px 0 0;
+	padding: 0;
+	font-weight: bolder;
+	list-style: none;
+	font-family: "Open Sans",Arial;
+}
+
+.footer-list a,.extra-footer{
+	font-weight: lighter;
+	font-size: 12px;
+	color: #323e4e;
+	text-decoration: none;
+}
+.footer-list1{
+        padding-top: 5px;
+}
+
+.footer-list li,.extra-footer {
+	margin-top: 5px;
+}

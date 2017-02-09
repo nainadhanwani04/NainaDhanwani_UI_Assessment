@@ -1,0 +1,117 @@
+body {
+  margin: 0 0 0 70px;
+  width: 89%; }
+
+.logo-holder {
+  margin-top: 0 !important; }
+
+.logo {
+  background: url("https://atlanticbb.com/business/sites/all/themes/progressive/progressive_sub/logo.png") no-repeat;
+  width: 113px;
+  height: 141px;
+  background-size: 100%, 100%; }
+
+.title {
+  font-family: "Open Sans", Arial;
+  color: #404d74;
+  font-size: 20px;
+  padding: 75px 0 0 110px; }
+
+.header-links {
+  list-style: none;
+  font-weight: 500;
+  display: flex;
+  margin: 0 0 0 auto;
+  padding: 0 0 0 0; }
+  .header-links li {
+    margin: 80px 0 0 0; }
+  .header-links a {
+    text-decoration: none;
+    text-align: right;
+    font-family: "Open Sans", Arial;
+    color: #404d74;
+    font-size: 20px;
+    margin: 0 0 0 37px; }
+  .header-links a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid blue;
+    color: #3399FF; }
+
+.secondary-nav {
+  display: flex;
+  height: 20px;
+  padding: 0 0 4px 0; }
+  .secondary-nav a {
+    text-decoration: none;
+    font-family: "Open Sans", Arial;
+    color: #404d74;
+    font-size: 20px; }
+  .secondary-nav a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid blue;
+    color: #3399FF; }
+
+.featured-nav {
+  font-weight: 700;
+  cursor: pointer; }
+
+.all-nav {
+  margin: 0 0 0 10px; }
+
+.search-input {
+  color: red;
+  text-align: right;
+  cursor: pointer;
+  display: block;
+  letter-spacing: 4px;
+  text-shadow: "0 0 2px black";
+  word-spacing: 20px;
+  width: 500px;
+  margin: 0 0 0 auto;
+  box-shadow: none; }
+
+.search-button {
+  border: 1px solid #c4c4c4; }
+
+.main-content {
+  margin: 10px 0 0 0;
+  border-top: 1px solid #C0C0C0;
+  background-color: #FFFFFF;
+  min-height: 500px; }
+
+.footer, .footer-extension, .footer-extension-list {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0 0 0; }
+
+.footer-list, .footer-list1, .footer-extension a {
+  color: #404d74;
+  margin: 0 20px 0 0;
+  padding: 0 0 0 0;
+  font-weight: bolder;
+  list-style: none;
+  font-family: "Open Sans", Arial; }
+
+.footer-list a, .extra-footer, .footer-extension-list a {
+  font-weight: lighter;
+  font-size: 12px;
+  color: #323e4e;
+  text-decoration: none; }
+
+.footer-list1, .footer-extension p {
+  padding: 5px 0 0 0; }
+
+.footer-list li, .extra-footer {
+  margin: 5px 0 0 0; }
+
+.footer-extension {
+  background-color: #323e4e; }
+
+.footer-extension-list li {
+  list-style: none; }
+
+.footer-extension, .footer-extension-list a {
+  color: #fff;
+  font-family: "Open Sans", Arial; }
+
+/*# sourceMappingURL=css.css.map */
